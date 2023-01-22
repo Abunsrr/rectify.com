@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Courses </title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/favi/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favi/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favi/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    
+    <nav class="navigation container">
+       <img src="images/logo2 .jpeg" alt=""  height="40px" width="143px">
+       <div id="nav-heading">Enhance and Rectify your Learning </div>
+    
+       <ul class="non-bullets nav-pill">
+        <li class="item-inline"><a class="nlink" href="http://127.0.0.1:5501/index.html"> Home</a></li>
+        <li class="item-inline"><a class="nlink " href="http://127.0.0.1:5501/courses.html"> Courses</a></li>
+        <li class="item-inline"><a class="nlink active" href="http://127.0.0.1:5500/Startjourney/images/registration.html">Account</a></li>
+        <li class="item-inline"><a class="nlink" href="http://127.0.0.1:5501/about.html"> About-us</a></li>
+    
+       </ul>
+    </nav>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="second.css">
+    <form method="post" action="sumbit.php">
+    <fieldset>
+        <p>Please fill the form so that our counsellor will contact you</p><br>
+    <div> <label for="Sname"> <b>Student Name </b></label><br>
+        <label for="yfname"><b> First Name</b></label>
+          <input type="text" required placeholder="Enter First Name" autofocus id="yfname"> &nbsp;
+         <label for="ylname"><b>Last Name</b></label>
+          <input type="text" required placeholder=" Enter last Name" id="ylname" >
+    </div>
+<br>
+
+   <br>
+   <div><label for="Phn"><b>Phone Number</b></label><br>
+     <input type="number" id="Phn" name="phn" required placeholder="Enter Your Phone Number" > 
+    
+   </div>
+   <br>
+<div>
+    <label for="dob"><b> Date Of Birth</b></label><br>
+    <input type="date" id="dob"  name="dob">
+</div>
+<div><br>
+    <label for="gender"><b> Gender </b></label><br>
+    <label for="male"><b> Male </b></label>
+    <input type="radio" name="gender" value=" male" > &nbsp;
+    <label for="female"><b> Female </b></label>
+    <input type="radio" name="gender" value="male">
+</div>
+
+<div>
+    <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required id="email">
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <label for="psw-confirm"><b>Confirm Password</b></label>
+      <input type="password" placeholder="Confirm Password" name="psw-confirm" required>
+  
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+  
+</div>
+
+<br>
+<div>
+    <label for="city"><b> Select City </b></label>
+    <select><option value="Gaya"> Gaya</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Abu Fazal Saheen Bagh">Abu Fazal Saheen Bagh </option> 
+    <option value=" Jamia Nagar ">Jamia Nagar</option>
+    <option value="Makhdumpur">Makhdumpur</option>
+    <option value="Bela">Bela</option>
+    <option value="Chakand">Chakand</option>
+    <option value="Manpur">Manpur</option>
+    </select>
+</div>
+<br>
+<br>
+<div>
+    <textarea rows="3" cols="15" placeholder="Comment"></textarea>
+</div>
+  <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+
+<div><br<br>
+    <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div> &nbsp; &nbsp;&nbsp;<input type="reset">
+</div>
+</fieldset>
+
+</form>
+</body>
