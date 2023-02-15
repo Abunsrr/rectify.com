@@ -1,2 +1,3 @@
 # student portfolio
-i am new in programming . till now i ahve learned HTML, CSSS, JAVASCRIPT, C#
+i am new in programming .
+Till now  Ihave learned HTML, CSSS, JAVASCRIPT, C#
