@@ -1,3 +1,2 @@
 # student portfolio
-hey! this is my first programme 
-now i am going to start html
+i am new in programming . till now i ahve learned HTML, CSSS, JAVASCRIPT, C#
